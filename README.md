@@ -8,9 +8,9 @@ To combat these threats, advanced techniques are required to identify and classi
 The code presented here addresses this challenge by leveraging machine learning algorithms to detect and classify malicious URLs. The dataset used for training and evaluation contains two crucial pieces of information: the URL itself and the corresponding type of the URL, categorized into four classes—benign, defacement, phishing, and malware.
 
 # Key Features and Preprocessing:
-### 1. URL Preprocessing:
-  o Removal of 'www.' from URLs to standardize the format.
-  o Conversion of URL categories (benign, defacement, phishing, malware) 
+### -1. URL Preprocessing:
+  - o Removal of 'www.' from URLs to standardize the format.
+  - o Conversion of URL categories (benign, defacement, phishing, malware) 
 into numerical values for model compatibility.
 ### 2. Feature Extraction:
   o URL Length: Quantifying the length of URLs.
