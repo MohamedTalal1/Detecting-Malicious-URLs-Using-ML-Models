@@ -71,7 +71,7 @@ can significantly mitigate the risks associated with cyber threats, ensuring a m
 digital landscape for users and organizations alike.
 # Hint
 - **hint to understand what a URL consists of:**
-A URL consists of the top-level domain, hostname, paths, and port of the web address, as in the following diagram
+  A URL consists of the top-level domain, hostname, paths, and port of the web address, as in the following diagram
 
 ![malware](https://github.com/MohamedTalal1/Detecting-Malicious-URLs-Using-ML-Models/assets/127398447/01618d7b-9925-448b-a3c7-db1e63062bd2)
 
