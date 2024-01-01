@@ -21,28 +21,28 @@ The code presented here addresses this challenge by leveraging machine learning 
   - Shortening Service Detection: Identifying URLs shortened by popular services.
   - IP Address Presence: Recognizing URLs containing IP addresses.
 ### 3. Machine Learning Models:
-**Random Forest Classifier:**
+- **Random Forest Classifier:**
   - Robust ensemble learning algorithm.
   - Handles complex datasets and provides accurate predictions.
   - Adaptability to evolving cyber threats.
-**Naive Bayes:**
+- **Naive Bayes:**
   - Probabilistic classifier based on Bayes' theorem.
   - Assumes independence between features.
   - Efficient for large datasets and computationally inexpensive.
-**Decision Tree Classifier:**
+- **Decision Tree Classifier:**
   - Tree-like model representing decisions and their consequences.
   - Captures non-linear relationships in the data.
   - Prone to overfitting, but ensemble methods like Random Forest mitigate 
     this.
-**AdaBoost Classifier:**
+- **AdaBoost Classifier:**
   - Boosting algorithm combining weak learners to create a strong learner.
   - Emphasizes misclassified instances in successive iterations.
   - Reduces bias and variance, enhancing overall performance.
-**Stochastic Gradient Descent (SGD) Classifier:**
+- **Stochastic Gradient Descent (SGD) Classifier:**
   - Iterative optimization algorithm for training linear classifiers.
   - Efficient for large-scale datasets.
   - Adaptable to various loss functions and suitable for online learning.
-**Extra Trees Classifier:**
+- **Extra Trees Classifier:**
   - Ensemble learning method similar to Random Forest but with some 
     differences in the tree-building process.
   - Employs randomization for feature selection and node splitting.
