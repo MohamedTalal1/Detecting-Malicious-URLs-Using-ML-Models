@@ -48,24 +48,24 @@ The code presented here addresses this challenge by leveraging machine learning 
   - Employs randomization for feature selection and node splitting.
   - Reduces overfitting and enhances generalization.
 ### 4. Importance of Utilizing Multiple Models:
-**Diverse Model Perspectives:**
+- **Diverse Model Perspectives:**
   - Each model brings a unique perspective to the classification task, leveraging different approaches to identify patterns and make predictions.
-**Ensemble Learning Strength:**
+- **Ensemble Learning Strength:**
   - The ensemble of models, each with its strengths and weaknesses, creates a robust system that is less prone to overfitting and generalizes well to unseen data.
-**Model Selection Adaptability:**
+- **Model Selection Adaptability:**
   - Different models may perform better on specific types of data or under certain conditions. Utilizing multiple models allows for adaptability to varying scenarios.
-**Comprehensive Threat Detection:**
+- **Comprehensive Threat Detection:**
    - The combination of models ensures a comprehensive approach to threat detection, increasing the likelihood of identifying diverse types of malicious URLs.
 ### 5. Importance of the project:
-**Enhanced Security Measures:**
+- **Enhanced Security Measures:**
   - The code contributes to enhancing web security by proactively identifying and classifying potentially malicious URLs, preventing users from accessing harmful content.
-**Adaptability and Automation:**
+- **Adaptability and Automation:**
   - Machine learning models offer the advantage of adaptability to evolving cyber threats, making the code a valuable tool in the continuous battle against malicious activities on the web.
-**Efficient Resource Allocation:**
-  - By automating the URL classification process, the code enables efficient allocation of cybersecurity resources, focusing on addressing potential threats rather than manually inspecting each URL Data-Driven Decision-Making:
+- **Efficient Resource Allocation:**
+  - By automating the URL classification process, the code enables efficient allocation of cybersecurity resources, focusing on addressing potential threats rather than manually inspecting each URL Data-Driven Decisio Making:
   - The use of machine learning allows for data-driven decision-making, enabling cybersecurity professionals to stay ahead of emerging threats based on patterns learned from historical data.
-   
-In conclusion, the project provides a practical solution for the detection of malicious 
+ # Conclusion  
+The project provides a practical solution for the detection of malicious 
 URLs, contributing to a safer online environment. Its utilization in real-world scenarios 
 can significantly mitigate the risks associated with cyber threats, ensuring a more secure 
 digital landscape for users and organizations alike.
