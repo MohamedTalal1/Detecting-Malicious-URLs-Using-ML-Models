@@ -5,17 +5,14 @@ One prevalent threat on the internet is the proliferation of malicious URLs, whi
 malware.
 To combat these threats, advanced techniques are required to identify and classify URLs as either benign or malicious.
 
-The code presented here addresses this challenge by leveraging machine learning 
-algorithms to detect and classify malicious URLs. The dataset used for training 
-and evaluation contains two crucial pieces of information: the URL itself and the 
-corresponding type of the URL, categorized into four classes—benign, defacement, phishing, and malware.
+The code presented here addresses this challenge by leveraging machine learning algorithms to detect and classify malicious URLs. The dataset used for training and evaluation contains two crucial pieces of information: the URL itself and the corresponding type of the URL, categorized into four classes—benign, defacement, phishing, and malware.
 
-➢ Key Features and Preprocessing:
-1. URL Preprocessing:
+## ➢ Key Features and Preprocessing:
+### 1. URL Preprocessing:
   o Removal of 'www.' from URLs to standardize the format.
   o Conversion of URL categories (benign, defacement, phishing, malware) 
 into numerical values for model compatibility.
-2. Feature Extraction:
+### 2. Feature Extraction:
   o URL Length: Quantifying the length of URLs.
   o Domain Extraction: Utilizing the top-level domain (TLD) extraction for 
     analysis.
@@ -28,55 +25,55 @@ into numerical values for model compatibility.
   o Shortening Service Detection: Identifying URLs shortened by popular 
     services.
   o IP Address Presence: Recognizing URLs containing IP addresses.
-3. Machine Learning Models:
-Random Forest Classifier:
+### 3. Machine Learning Models:
+**Random Forest Classifier:**
   o Robust ensemble learning algorithm.
   o Handles complex datasets and provides accurate predictions.
   o Adaptability to evolving cyber threats.
-Naive Bayes:
+**Naive Bayes:**
   o Probabilistic classifier based on Bayes' theorem.
   o Assumes independence between features.
   o Efficient for large datasets and computationally inexpensive.
-Decision Tree Classifier:
+**Decision Tree Classifier:**
   o Tree-like model representing decisions and their consequences.
   o Captures non-linear relationships in the data.
   o Prone to overfitting, but ensemble methods like Random Forest mitigate 
     this.
-AdaBoost Classifier:
+**AdaBoost Classifier:**
   o Boosting algorithm combining weak learners to create a strong learner.
   o Emphasizes misclassified instances in successive iterations.
   o Reduces bias and variance, enhancing overall performance.
-Stochastic Gradient Descent (SGD) Classifier:
+**Stochastic Gradient Descent (SGD) Classifier:**
   o Iterative optimization algorithm for training linear classifiers.
   o Efficient for large-scale datasets.
   o Adaptable to various loss functions and suitable for online learning.
-Extra Trees Classifier:
+**Extra Trees Classifier:**
   o Ensemble learning method similar to Random Forest but with some 
     differences in the tree-building process.
   o Employs randomization for feature selection and node splitting.
   o Reduces overfitting and enhances generalization.
-4. Importance of Utilizing Multiple Models:
-Diverse Model Perspectives:
+### 4. Importance of Utilizing Multiple Models:
+**Diverse Model Perspectives:**
   o Each model brings a unique perspective to the classification task, 
     leveraging different approaches to identify patterns and make predictions.
     Ensemble Learning Strength:
   o The ensemble of models, each with its strengths and weaknesses, creates a 
     robust system that is less prone to overfitting and generalizes well to 
     unseen data.
-Model Selection Adaptability:
+**Model Selection Adaptability:**
   o Different models may perform better on specific types of data or under 
     certain conditions. Utilizing multiple models allows for adaptability to 
     varying scenarios.
-Comprehensive Threat Detection:
+**Comprehensive Threat Detection:**
    o The combination of models ensures a comprehensive approach to threat 
     detection, increasing the likelihood of identifying diverse types of 
     malicious URLs.
-5. Importance of the project:
-Enhanced Security Measures:
+### 5. Importance of the project:
+**Enhanced Security Measures:**
   o The code contributes to enhancing web security by proactively identifying 
     and classifying potentially malicious URLs, preventing users from 
     accessing harmful content.
-Adaptability and Automation:
+**Adaptability and Automation:**
   o Machine learning models offer the advantage of adaptability to evolving 
     cyber threats, making the code a valuable tool in the continuous battle 
     against malicious activities on the web.
